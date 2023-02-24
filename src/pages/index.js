@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import "../scss/styles.scss";
+
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -126,7 +128,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <h1 style={headingStyles}>
+      <h1 style={headingStyles} className='red-text'>
         Congratulations
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
