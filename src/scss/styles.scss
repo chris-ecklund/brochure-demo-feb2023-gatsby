@@ -3,6 +3,12 @@
 //--------------------------------------------------
 //Variables
 
+$brochure-green: #4a6446 !default;
+$brochure-yellow: #ffe1aa !default;
+$brochure-tan: #fffaee !default;
+$brochure-grey: #36454F !default;
+$brochure-bluegrey: #d5d9df !default;
+
 $blog-teal: #83bbe0 !default;
 $blog-grey: #d4d4d4 !default;
 $blog-charcoal: #36454F !default;
@@ -42,20 +48,20 @@ $blog-shaddow: rgb(20, 20, 20) !default;
 }
 
 .nav-link-text {
-  color: $blog-blue;
+  color: $brochure-green;
   font-size: 1.5rem;
   font-family: "Impact";
 }
 
 .nav-background {
-  background-color: $blog-charcoal;
+  background-color: $brochure-bluegrey;
 }
 
 //--------------------------------------------------
 //Footer
 
 .footer-background {
-  background-color: $blog-charcoal;
+  background-color: $brochure-bluegrey;
 }
 
 //--------------------------------------------------
@@ -175,31 +181,42 @@ $blog-shaddow: rgb(20, 20, 20) !default;
 //other custom sections
 
 .background {
-  background-color: $blog-teal;
+  background-color: $brochure-yellow;
 }
 
 .center-column {
-  background-color: $blog-grey;
+  background-color: $brochure-tan;
   padding: 50px;
   min-height: 75vh;
   //box-shadow: 5px 5px 5px $blog-shaddow;
 }
 
-p, h2, li {
-  color: $blog-charcoal;
+h1, h2 {
+  color: $brochure-green;
+}
+
+p, li {
+  color: black;
 }
 
 a {
   color: $blog-blue;
 }
 
+.container-showcased-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .card {
-  border: 2px solid $blog-blue;
+  border: 2px solid $brochure-green;
   border-radius: 10px;
-  background-color: white;
+  background-color: $brochure-yellow;
   padding: 10px;
   margin: 10px;
   box-shadow: 1px 1px 5px $blog-shaddow;
+  min-width: 150px;
 }
 
 .image-radius {

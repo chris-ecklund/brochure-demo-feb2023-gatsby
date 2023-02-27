@@ -1,11 +1,20 @@
 import React from "react";
 
+import Layout from "../components/layout";
+
 import "../scss/styles.scss";
 
 const Showcase2 = () => {
   return (
-    <div>
-      <p>Showcase2 Page content here</p>
+    <div className='wrapper-fullpagesize-nopadding background site-default-font'>
+      <Layout>
+        <div className='wrapper-pagewidth center-column'>
+          
+              <h1>Title</h1>
+              
+           
+        </div>
+      </Layout>
     </div>
   );
 };
