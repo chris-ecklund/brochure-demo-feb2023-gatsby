@@ -6,16 +6,19 @@ import "../scss/styles.scss";
 
 const Showcase1 = () => {
   return (
-    <div className='wrapper-fullpagesize-nopadding background site-default-font'>
-      <Layout>
-        <div className='wrapper-pagewidth center-column'>
+
+    <></>
+    // <div className='wrapper-fullpagesize-nopadding background site-default-font'>
+    //   <Layout>
+    //     <div className='wrapper-pagewidth center-column'>
           
-              <h1>Title</h1>
+    //           <h1>Title</h1>
               
            
-        </div>
-      </Layout>
-    </div>
+    //     </div>
+    //   </Layout>
+    // </div>
+
   );
 };
 
