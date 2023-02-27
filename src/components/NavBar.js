@@ -13,27 +13,42 @@ const NavBar = () => {
           </div>
         </div>
 
-        <div className="flexgrow1 red-find-border"></div>
+        <div className="flexgrow1 red-find-border">
+          <nav>
+            <ul className="nav-links red-find-border">
+              <li className="nav-link-item ">
+                <Link to="/" className="nav-link-text ">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-link-item">
+                <Link to="/about" className="nav-link-text">
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-link-item">
+                <Link to="/showcase" className="nav-link-text">
+                  Showcase
+                </Link>
+              </li>
+            </ul>
+          </nav>
 
-        <nav className="flexgrow1">
-          <ul className="nav-links red-find-border">
-            <li className="nav-link-item ">
-              <Link to="/" className="nav-link-text ">
-                Home
-              </Link>
-            </li>
-            <li className="nav-link-item">
-              <Link to="/about" className="nav-link-text">
-                About Us
-              </Link>
-            </li>
-            <li className="nav-link-item">
-              <Link to="/showcase" className="nav-link-text">
-                Showcase
-              </Link>
-            </li>
-          </ul>
-        </nav>
+          <nav className="flexgrow1">
+            <ul className="nav-links red-find-border">
+              <li className="nav-link-item ">
+                <Link to="/" className="nav-link-text ">
+                  Sanity Demo
+                </Link>
+              </li>
+              <li className="nav-link-item">
+                <Link to="/typescriptpage" className="nav-link-text">
+                  TypeScript Demo
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
     </div>
   );
