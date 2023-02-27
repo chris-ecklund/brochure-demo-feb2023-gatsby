@@ -3,3 +3,179 @@
 .red-text {
     color: red;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Impact&amp;display=swap);
+
+//--------------------------------------------------
+//Variables
+
+$blog-teal: #83bbe0 !default;
+$blog-grey: #d4d4d4 !default;
+$blog-charcoal: #36454F !default;
+$blog-blue: #2B65EC !default;
+$blog-shaddow: rgb(20, 20, 20) !default;
+
+//--------------------------------------------------
+//heading and site title
+
+.heading {
+  color: white;
+  text-shadow: 1px 1px 5px $blog-shaddow;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  margin: 3rem 0;
+  text-shadow: 1px 1px 5px $blog-shaddow;
+}
+
+//--------------------------------------------------
+//Nav
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: center;
+}
+
+.nav-link-item {
+  padding-right: 2rem;
+}
+
+.nav-link-text {
+  color: $blog-blue;
+  font-size: 1.5rem;
+  font-family: "Impact";
+}
+
+//--------------------------------------------------
+//Heights & Widths
+
+//--------------------------------------------------
+//Wrapper
+
+.wrapper-fullpagesize-nopadding {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.wrapper-addpadding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.wrapper-pagewidth {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.site-default-font {
+  font-family: sans-serif;
+}
+
+//--------------------------------------------------
+//Containers
+
+.container-general-row {
+  display: flex;
+}
+
+.container-general-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-bottom-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.flexcontainer-center-leftright {
+  display: flex;
+  flex-direction: row; //this is default
+  //flex-wrap: no-wrap; //this is default
+  justify-content: center;
+}
+
+.flexcontainer-center-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+//--------------------------------------------------
+//borders
+
+.red-find-border {
+  border: 2px solid red;
+}
+
+.white-border {
+  border: 2px solid white;
+}
+
+//--------------------------------------------------
+//Fonts
+
+.font-impact {
+  font-family: "Impact";
+}
+
+//--------------------------------------------------
+//Text styles
+
+.wht-shadow {
+  text-shadow: 0px 0px 5px white;
+}
+
+.red-text {
+  color: red;
+}
+
+//--------------------------------------------------
+//other custom sections
+
+.background {
+  background-color: $blog-teal;
+}
+
+.center-column {
+  background-color: $blog-grey;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px $blog-shaddow;
+}
+
+p, h2, li {
+  color: $blog-charcoal;
+}
+
+a {
+  color: $blog-blue;
+}
+
+.card {
+  border: 2px solid $blog-blue;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 5px $blog-shaddow;
+}
+
+.image-radius {
+  border-radius: 20px;
+}
