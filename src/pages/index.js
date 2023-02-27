@@ -6,13 +6,17 @@ import "../scss/styles.scss";
 
 const IndexPage = () => {
   return (
-    <>
-    <p className="red-text">hi above layout</p>
-    <Layout>
-      <p className="red-text">hi inside layout</p>
-    </Layout>
-    <p className="red-text">hi below layout</p>
-    </>
+    <div className='wrapper-fullpagesize-nopadding background site-default-font'>
+      <Layout>
+        <div className='wrapper-pagewidth center-column'>
+          <div className=''>
+            <div className=''>
+              <p className='red-text'>hi inside layout</p>
+            </div>
+          </div>
+        </div>
+      </Layout>
+    </div>
   );
 };
 
