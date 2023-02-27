@@ -2,7 +2,7 @@ import * as React from "react";
 
 import "../scss/styles.scss";
 
-const Header = () => {
+const NavBar = () => {
   return (
     <header>
       <h1>nav bar goes here</h1>
@@ -31,4 +31,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;
